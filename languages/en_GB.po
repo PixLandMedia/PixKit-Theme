@@ -1,0 +1,588 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PixKit\n"
+"POT-Creation-Date: 2015-01-28 00:45+0100\n"
+"PO-Revision-Date: 2015-01-28 00:48+0100\n"
+"Last-Translator: \n"
+"Language-Team: PixLand Media <support@pixlandmedia.com>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:24
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#: ../404.php:39
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../archive.php:26
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../archive.php:29
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../archive.php:36
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../archive.php:44
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../archive.php:47
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../archive.php:50
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../archive.php:53 ../sidebar.php:18
+msgid "Archives"
+msgstr ""
+
+#: ../comments.php:39 ../comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:40 ../comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:41 ../comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:11 ../content-aside.php:26 ../content.php:10
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../content-aside.php:20
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-aside.php:21 ../content-page.php:17 ../content-single.php:21
+#: ../content.php:30 ../image.php:89
+msgid "Pages:"
+msgstr ""
+
+#: ../content-aside.php:29 ../inc/template-tags.php:57
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-aside.php:29 ../inc/template-tags.php:57
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-aside.php:29 ../inc/template-tags.php:57
+msgid "% Comments"
+msgstr ""
+
+#: ../content-aside.php:32 ../content-page.php:18 ../content-single.php:59
+#: ../content.php:64 ../image.php:37 ../image.php:103
+msgid "Edit"
+msgstr ""
+
+#: ../content-single.php:27 ../content-single.php:30 ../content.php:39
+#: ../content.php:51
+msgid ", "
+msgstr ""
+
+#: ../content-single.php:35
+#, php-format
+msgid ""
+"<i class=\"fa fa-bookmark\"></i> %2$s. | Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:37
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:43
+#, php-format
+msgid ""
+"<i class=\"fa fa-bookmark\"></i> This entry was posted in %1$s and tagged "
+"%2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel="
+"\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:45
+#, php-format
+msgid ""
+"<i class=\"fa fa-bookmark\"></i> This entry was posted in %1$s. Bookmark the "
+"<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content.php:44
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../content.php:57
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../footer.php:49
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../footer.php:51
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: ../functions.php:80
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:123
+msgid "Primary Widget Area"
+msgstr ""
+
+#: ../functions.php:132
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../functions.php:141
+msgid "Footer Widget Area Left"
+msgstr ""
+
+#: ../functions.php:150
+msgid "Footer Widget Area Center"
+msgstr ""
+
+#: ../functions.php:159
+msgid "Footer Widget Area Right"
+msgstr ""
+
+#: ../header.php:40
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../image.php:27
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../image.php:41
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../image.php:42
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../image.php:95
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:97
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:99
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: ../image.php:101
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../inc/filters.php:62
+msgid "Name"
+msgstr ""
+
+#: ../inc/filters.php:64
+msgid "Email"
+msgstr ""
+
+#: ../inc/filters.php:66
+msgid "Website"
+msgstr ""
+
+#: ../inc/filters.php:97
+msgid "Submit"
+msgstr ""
+
+#: ../inc/template-tags.php:24
+#, php-format
+msgid ""
+"\n"
+"                    <li>\n"
+"                        by \n"
+"                        <span class=\"author vcard\">\n"
+"                            <a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
+"\" rel=\"author\">\n"
+"                            %7$s\n"
+"                            </a>\n"
+"                        </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        <i class=\"fa fa-clock-o\"></i>\n"
+"                        <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">\n"
+"                            <time class=\"entry-date\" datetime=\"%3$s\" "
+"pubdate>%4$s</time>\n"
+"                        </a>\n"
+"                    </li>\n"
+"                "
+msgstr ""
+
+#: ../inc/template-tags.php:45
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../inc/template-tags.php:150
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:160
+msgid "<i class=\"fa fa-chevron-left fa-inverse\"></i> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:164
+msgid "Newer posts <i class=\"fa fa-chevron-right fa-inverse\"></i>"
+msgstr ""
+
+#: ../inc/template-tags.php:191
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:191 ../inc/template-tags.php:217
+msgid "(Edit)"
+msgstr ""
+
+#: ../inc/template-tags.php:203
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:206
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/template-tags.php:215
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../lib/theme-options.php:24
+msgid "Text Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:25
+msgid "Textarea Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:26
+msgid "Select Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:27
+msgid "Checkbox Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:44
+msgid "Text Input - Some HTML OK!"
+msgstr ""
+
+#: ../lib/theme-options.php:45
+msgid ""
+"A regular text input field. Some inline HTML (&lt;a&gt;, &lt;b&gt;, &lt;"
+"em&gt;, &lt;i&gt;, &lt;strong&gt;) is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:47 ../lib/theme-options.php:56
+#: ../lib/theme-options.php:117 ../lib/theme-options.php:126
+#: ../lib/theme-options.php:136 ../lib/theme-options.php:146
+msgid "Some default value"
+msgstr ""
+
+#: ../lib/theme-options.php:53 ../lib/theme-options.php:123
+msgid "No HTML!"
+msgstr ""
+
+#: ../lib/theme-options.php:54
+msgid "A text input field where no html input is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:63
+msgid "Numeric Input"
+msgstr ""
+
+#: ../lib/theme-options.php:64
+msgid "A text input field where only numeric input is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:73
+msgid "Multinumeric Input"
+msgstr ""
+
+#: ../lib/theme-options.php:74
+msgid ""
+"A text input field where only multible numeric input (i.e. comma separated "
+"numeric values) is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:83
+msgid "URL Input"
+msgstr ""
+
+#: ../lib/theme-options.php:84
+msgid "A text input field which can be used for urls."
+msgstr ""
+
+#: ../lib/theme-options.php:93
+msgid "Email Input"
+msgstr ""
+
+#: ../lib/theme-options.php:94
+msgid "A text input field which can be used for email input."
+msgstr ""
+
+#: ../lib/theme-options.php:103
+msgid "Multi-Text Inputs"
+msgstr ""
+
+#: ../lib/theme-options.php:104
+msgid "A group of text input fields"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 1"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 2"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 3"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 4"
+msgstr ""
+
+#: ../lib/theme-options.php:114
+msgid "Textarea - HTML OK!"
+msgstr ""
+
+#: ../lib/theme-options.php:115
+msgid "A textarea for a block of text. HTML tags allowed!"
+msgstr ""
+
+#: ../lib/theme-options.php:124
+msgid "A textarea for a block of text. No HTML!"
+msgstr ""
+
+#: ../lib/theme-options.php:133
+msgid "No HTML! Line breaks OK!"
+msgstr ""
+
+#: ../lib/theme-options.php:134
+msgid "No HTML! Line breaks allowed!"
+msgstr ""
+
+#: ../lib/theme-options.php:143
+msgid "Some Inline HTML ONLY!"
+msgstr ""
+
+#: ../lib/theme-options.php:144
+msgid ""
+"A textarea for a block of text. Only some inline HTML (&lt;a&gt;, &lt;b&gt;, "
+"&lt;em&gt;, &lt;strong&gt;, &lt;abbr&gt;, &lt;acronym&gt;, &lt;"
+"blockquote&gt;, &lt;cite&gt;, &lt;code&gt;, &lt;del&gt;, &lt;q&gt;, &lt;"
+"strike&gt;) is allowed!"
+msgstr ""
+
+#: ../lib/theme-options.php:154
+msgid "Select (type one)"
+msgstr ""
+
+#: ../lib/theme-options.php:155
+msgid "A regular select form field"
+msgstr ""
+
+#: ../lib/theme-options.php:164
+msgid "Select (type two)"
+msgstr ""
+
+#: ../lib/theme-options.php:165
+msgid "A select field with a label for the option and a corresponding value."
+msgstr ""
+
+#: ../lib/theme-options.php:168
+msgid "Option 1"
+msgstr ""
+
+#: ../lib/theme-options.php:168
+msgid "Option 2"
+msgstr ""
+
+#: ../lib/theme-options.php:168
+msgid "Option 3"
+msgstr ""
+
+#: ../lib/theme-options.php:168
+msgid "Option 4"
+msgstr ""
+
+#: ../lib/theme-options.php:175
+msgid "Checkbox"
+msgstr ""
+
+#: ../lib/theme-options.php:176 ../lib/theme-options.php:185
+msgid "Some Description"
+msgstr ""
+
+#: ../lib/theme-options.php:184
+msgid "Multi-Checkbox"
+msgstr ""
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 1"
+msgstr ""
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 2"
+msgstr ""
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 3"
+msgstr ""
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 4"
+msgstr ""
+
+#: ../lib/theme-options.php:203
+msgid "PixKit Settings - Contextual Help"
+msgstr ""
+
+#: ../lib/theme-options.php:204
+msgid ""
+"Contextual help goes here. You may want to use different html elements to "
+"format your text as you want."
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:41
+msgid "Pixkit Settings Page"
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:146
+msgid "PixKit Options"
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:352
+msgid "Expecting a Numeric value! Please fix."
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:365
+msgid "Expecting comma separated numeric values"
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:375
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:400
+msgid "Invalid email! Please re-enter!"
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:402
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr ""
+
+#: ../lib/theme-settings-basic.php:410
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ../no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: ../no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../searchform.php:10
+msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:25
+msgid "Meta"
+msgstr ""

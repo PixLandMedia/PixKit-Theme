@@ -1,0 +1,29 @@
+/*==============================
+=            Header            =
+==============================*/
+
+.page-header {
+	padding-bottom: 0;
+	margin: $margin 0;
+	border-bottom: 3px solid lighten( $color-divider, 20% );
+}
+
+.site-title {
+	
+    margin:5px 0 0 0;
+
+    a {
+        color: $color-link-light;
+    }
+}
+
+.site-description {
+	font-size:0.83em;
+	//line-height: 16px;
+	color: darken($color-text-light, 20%);
+	margin: -10px 0 0;
+	font-weight: 300;
+}
+
+/*-----  End of Header  ------*/
+

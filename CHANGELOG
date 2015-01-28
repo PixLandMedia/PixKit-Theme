@@ -1,0 +1,19 @@
+{
+    Project:  PixKit - Wordpress Starter Theme,
+    Author:   Tamás Németh - PixLand Media Inc.,
+    Version:  0.1.0,
+    Updated:  01.28.15
+}
+
+
+01.28.15 v0.1.0:
+    Initial Release
+    ADDED PixKit - HTML version
+    ADDED Theme structure
+    ADDED Bootstrap 3.3.1
+    ADDED Font Awesome 4.2.0
+    ADDED normalize-css 3.0.2
+    ADDED Slidebars.js 0.10.2 
+    ADDED Theme options example on backend
+    ADDED pixkit-child.zip - Child theme for PixKit Starter Theme
+    

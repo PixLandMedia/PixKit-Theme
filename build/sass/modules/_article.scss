@@ -1,0 +1,71 @@
+/*===============================
+=            Article            =
+===============================*/
+
+
+article {
+	padding-bottom: $padding;
+	border-bottom: 1px dashed $color-divider;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+
+}
+
+
+.sticky {
+
+}
+
+.hentry {
+    margin: 0 0 $margin;
+}
+ 
+
+.byline {
+    //display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+    display: inline;
+}
+
+
+.page-links {
+    clear: both;
+    margin: 0 0 $margin;
+}
+
+
+.entry-header {
+
+}
+
+.entry-title {
+	margin-bottom: 0;
+	
+}
+
+.entry-summary {
+	margin: $margin 0 0;
+}
+
+.entry-content {
+	margin: $margin 0 0;
+}
+
+.entry-meta {
+	clear: both;
+	color: $color-text-secondary;
+	font-weight: 300;
+
+	i {
+		color: $color-secondary;
+	}
+
+}
+
+/*-----  End of Article  ------*/
+
