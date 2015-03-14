@@ -7,6 +7,9 @@
  */
 
 
+add_filter( 'widget_text', 'shortcode_unautop');
+add_filter( 'widget_text', 'do_shortcode');
+
 /**
  * Add custom read more link button
  *

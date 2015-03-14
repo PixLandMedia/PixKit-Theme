@@ -77,7 +77,9 @@ function pixkit_setup() {
      * This theme uses wp_nav_menu() in one location.
      */
     register_nav_menus( array(
-        'primary' => __( 'Primary Menu', 'pixkit' ),
+        'primary'   => __( 'Primary Menu', 'pixkit' ),
+        'secondary' => __( 'Secondary Menu', 'pixkit' ),
+        'footer'    => __( 'Footer Menu', 'pixkit' ),
     ) );
 }
 endif; // pixkit_setup
@@ -98,7 +100,7 @@ function pixkit_scripts() {
         wp_enqueue_script( 'comment-reply' );
     }
     
-    wp_enqueue_script( 'main-app', get_template_directory_uri() . '/js/app.min.js', array('jquery'), '20150125', true );
+    wp_enqueue_script( 'main-app', get_template_directory_uri() . '/js/app.min.js', array('jquery'), '20150212', true );
 
     /*
     wp_enqueue_script( 'navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20150124', true );

@@ -51,8 +51,43 @@
             <?php printf( __( 'Theme: %1$s by %2$s.', 'pixkit' ), 'pixkit', '<a href="http://pixlandmedia.com/" rel="designer">PixLand Media</a>' ); ?>
         </div>
     </footer><!-- #colophon .site-footer -->
-</div><!-- #sb-site -->
+
+
+
+</div><!-- #panel -->
  
+ 
+    <!-- Mobile header -->
+    <nav class="navbar navbar-fixed-top hide visible-xs nav-xs" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-2">
+                    <a href="#mm-menu">
+                        <i class="fa fa-bars fa-2x sb-left-button"></i>
+                    </a>
+                </div>
+                <div class="col-xs-8 text-center">
+                    <h1><a href="/"><?php bloginfo( 'name' ); ?></a></h1>
+                </div>
+                <div class="col-xs-2 text-right">
+                </div>
+            </div><!-- / .row -->
+        </div><!-- / .container -->
+    </nav><!-- / Mobile menu -->
+    <!-- / Mobile header -->
+
+<!-- Left Slidebar -->
+<nav id="mm-menu">
+    <?php 
+        wp_nav_menu( array( 
+            'theme_location' => 'primary',
+            'menu_class'     => 'mobile-menu'
+        ) );
+    ?>
+</nav>
+<!-- / Left Slidebar -->
+
+
 <?php wp_footer(); ?>
  
 </body>
