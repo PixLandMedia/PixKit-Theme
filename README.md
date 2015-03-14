@@ -42,7 +42,7 @@ The library's css files copy the **build/sass/layouts** or **build/sass/modules*
 
 to
 
-    /build/sass/layouts/_slidebars.scss
+    /build/sass/layouts/_mmenu.scss
 
 
 
