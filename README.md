@@ -1,6 +1,6 @@
 #PixKit - Wordpress Starter Theme
 
-PixKit is a Wordpress starter theme with Codekit, Bootstrap 3, SASS, jQuery, Sidebars.js
+PixKit is a Wordpress starter theme with Codekit, Bootstrap 3, SASS, jQuery, jQuery.mmenu
 
 ##Installation
 
@@ -34,11 +34,11 @@ The library's js files include the **build/js/app.js** file. For example:
 
 The library's sass files include the **build/sass/style.scss** file. For example: 
 
-    @import '../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap';
+    @import '../bower_components/bootstrap-sass/assets/stylesheets/_bootstrap';
 
 The library's css files copy the **build/sass/layouts** or **build/sass/modules**. You should change the file's extension .scss for example: 
 
-    /build/bower_components/distribution/0.10.2/slidebars.min.css
+    /build/bower_components/jQuery.mmenu/src/css/jquery.mmenu.css
 
 to
 
@@ -61,6 +61,15 @@ email: [support@pixlandmedia.com]
 
 
 ## Changelog
+
+
+**03.14.15 v0.1.1:**
+- ADDED jQuery.mmenu 
+- UPDATED jQuery 2.1.3
+- UPDATED Bootstrap 3.3.3
+- UPDATED Font Awesome 4.3.0
+- REMOVED Slidebars.js 0.10.2 
+
 
 **01.28.15 v0.1.0:**
 - Initial Release
