@@ -62,6 +62,9 @@ email: [support@pixlandmedia.com]
 
 ## Changelog
 
+**04.12.15 v0.1.3:**
+- ADDED Hungarian translation ( 50% ready )
+
 
 **04.12.15 v0.1.2:**
 - UPDATED some localization deficiency

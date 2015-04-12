@@ -1,9 +1,12 @@
 {
     Project:  PixKit - Wordpress Starter Theme,
     Author:   Tamás Németh - PixLand Media Inc.,
-    Version:  0.1.1,
+    Version:  0.1.3,
     Updated:  03.14.15
 }
+
+04.12.15 v0.1.3:
+    ADDED Hungarian translation ( 50% ready )
 
 04.12.15 v0.1.2:
     UPDATED some localization deficiency

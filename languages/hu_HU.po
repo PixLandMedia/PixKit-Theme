@@ -1,0 +1,607 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PixKit - 0.1.2\n"
+"POT-Creation-Date: 2015-04-12 09:43+0100\n"
+"PO-Revision-Date: 2015-04-12 09:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: PixLand Media <support@pixlandmedia.com>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hope! Az old sageness em található."
+
+#: ../404.php:24
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../404.php:31
+msgid "Most Used Categories"
+msgstr "Leggyakoribb kategóriák"
+
+#: ../404.php:39
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: ../archive.php:26
+#, php-format
+msgid "Category Archives: %s"
+msgstr "%s"
+
+#: ../archive.php:29
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Kulcsszó: %s"
+
+#: ../archive.php:36
+#, php-format
+msgid "Author Archives: %s"
+msgstr "%s írásai"
+
+#: ../archive.php:44
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Napi archív: %s"
+
+#: ../archive.php:47
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Havi archív: %s"
+
+#: ../archive.php:50
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Éves archív: %s"
+
+#: ../archive.php:53 ../sidebar.php:18
+msgid "Archives"
+msgstr "Írások"
+
+#: ../comments.php:39 ../comments.php:59
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:40 ../comments.php:60
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:41 ../comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:71
+msgid "Comments are closed."
+msgstr ""
+
+#: ../content-aside.php:11 ../content-aside.php:26 ../content.php:10
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../content-aside.php:20
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../content-aside.php:21 ../content-page.php:17 ../content-single.php:21
+#: ../content.php:30 ../image.php:89
+msgid "Pages:"
+msgstr "Oldalak:"
+
+#: ../content-aside.php:29 ../inc/template-tags.php:57
+msgid "Leave a comment"
+msgstr "Szólj hozzá"
+
+#: ../content-aside.php:29 ../inc/template-tags.php:57
+msgid "1 Comment"
+msgstr "1 Komment"
+
+#: ../content-aside.php:29 ../inc/template-tags.php:57
+msgid "% Comments"
+msgstr ""
+
+#: ../content-aside.php:32 ../content-page.php:18 ../content-single.php:59
+#: ../content.php:64 ../image.php:37 ../image.php:103
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: ../content-single.php:27 ../content-single.php:30 ../content.php:39
+#: ../content.php:51
+msgid ", "
+msgstr ""
+
+#: ../content-single.php:35
+#, php-format
+msgid ""
+"<i class=\"fa fa-bookmark\"></i> %2$s. | Bookmark the <a href=\"%3$s\" title="
+"\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:37
+#, php-format
+msgid ""
+"Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:43
+#, php-format
+msgid ""
+"<i class=\"fa fa-bookmark\"></i> This entry was posted in %1$s and tagged "
+"%2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel="
+"\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content-single.php:45
+#, php-format
+msgid ""
+"<i class=\"fa fa-bookmark\"></i> This entry was posted in %1$s. Bookmark the "
+"<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: ../content.php:44
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: ../content.php:57
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../footer.php:49
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../footer.php:51
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: ../functions.php:80
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:81
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../functions.php:82
+msgid "Footer Menu"
+msgstr ""
+
+#: ../functions.php:125
+msgid "Primary Widget Area"
+msgstr ""
+
+#: ../functions.php:134
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../functions.php:143
+msgid "Footer Widget Area Left"
+msgstr ""
+
+#: ../functions.php:152
+msgid "Footer Widget Area Center"
+msgstr ""
+
+#: ../functions.php:161
+msgid "Footer Widget Area Right"
+msgstr ""
+
+#: ../header.php:43
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../image.php:27
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../image.php:41
+msgid "&larr; Previous"
+msgstr "&larr; Előző"
+
+#: ../image.php:42
+msgid "Next &rarr;"
+msgstr "Következő &rarr;"
+
+#: ../image.php:95
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:97
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+
+#: ../image.php:99
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+
+#: ../image.php:101
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+
+#: ../inc/filters.php:20
+msgid "Read more"
+msgstr "Olvass tovább"
+
+#: ../inc/filters.php:65
+msgid "Name"
+msgstr "Név"
+
+#: ../inc/filters.php:67
+msgid "Email"
+msgstr "E-mail"
+
+#: ../inc/filters.php:69
+msgid "Website"
+msgstr "Weboldal"
+
+#: ../inc/filters.php:100
+msgid "Submit"
+msgstr "Küldés"
+
+#: ../inc/template-tags.php:24
+#, php-format
+msgid ""
+"\n"
+"                    <li>\n"
+"                        <i class=\"fa fa-user\"></i>\n"
+"                        <span class=\"author vcard\">\n"
+"                            <a class=\"url fn n\" href=\"%5$s\" title=\"%6$s"
+"\" rel=\"author\">\n"
+"                            %7$s\n"
+"                            </a>\n"
+"                        </span>\n"
+"                    </li>\n"
+"                    <li>\n"
+"                        <i class=\"fa fa-clock-o\"></i>\n"
+"                        <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\">\n"
+"                            <time class=\"entry-date\" datetime=\"%3$s\" "
+"pubdate>%4$s</time>\n"
+"                        </a>\n"
+"                    </li>\n"
+"                "
+msgstr ""
+
+#: ../inc/template-tags.php:45
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../inc/template-tags.php:146
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:156
+msgid "Older posts"
+msgstr "Korábbi írások"
+
+#: ../inc/template-tags.php:160
+msgid "Newer posts"
+msgstr "Újabb írások"
+
+#: ../inc/template-tags.php:187
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:187 ../inc/template-tags.php:213
+msgid "(Edit)"
+msgstr "(Szerkesztés)"
+
+#: ../inc/template-tags.php:199
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:202
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/template-tags.php:211
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../lib/theme-options.php:24
+msgid "Text Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:25
+msgid "Textarea Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:26
+msgid "Select Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:27
+msgid "Checkbox Form Fields"
+msgstr ""
+
+#: ../lib/theme-options.php:44
+msgid "Text Input - Some HTML OK!"
+msgstr ""
+
+#: ../lib/theme-options.php:45
+msgid ""
+"A regular text input field. Some inline HTML (&lt;a&gt;, &lt;b&gt;, &lt;"
+"em&gt;, &lt;i&gt;, &lt;strong&gt;) is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:47 ../lib/theme-options.php:56
+#: ../lib/theme-options.php:117 ../lib/theme-options.php:126
+#: ../lib/theme-options.php:136 ../lib/theme-options.php:146
+msgid "Some default value"
+msgstr ""
+
+#: ../lib/theme-options.php:53 ../lib/theme-options.php:123
+msgid "No HTML!"
+msgstr ""
+
+#: ../lib/theme-options.php:54
+msgid "A text input field where no html input is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:63
+msgid "Numeric Input"
+msgstr ""
+
+#: ../lib/theme-options.php:64
+msgid "A text input field where only numeric input is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:73
+msgid "Multinumeric Input"
+msgstr ""
+
+#: ../lib/theme-options.php:74
+msgid ""
+"A text input field where only multible numeric input (i.e. comma separated "
+"numeric values) is allowed."
+msgstr ""
+
+#: ../lib/theme-options.php:83
+msgid "URL Input"
+msgstr ""
+
+#: ../lib/theme-options.php:84
+msgid "A text input field which can be used for urls."
+msgstr ""
+
+#: ../lib/theme-options.php:93
+msgid "Email Input"
+msgstr ""
+
+#: ../lib/theme-options.php:94
+msgid "A text input field which can be used for email input."
+msgstr ""
+
+#: ../lib/theme-options.php:103
+msgid "Multi-Text Inputs"
+msgstr ""
+
+#: ../lib/theme-options.php:104
+msgid "A group of text input fields"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 1"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 2"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 3"
+msgstr ""
+
+#: ../lib/theme-options.php:106
+msgid "Text input 4"
+msgstr ""
+
+#: ../lib/theme-options.php:114
+msgid "Textarea - HTML OK!"
+msgstr ""
+
+#: ../lib/theme-options.php:115
+msgid "A textarea for a block of text. HTML tags allowed!"
+msgstr ""
+
+#: ../lib/theme-options.php:124
+msgid "A textarea for a block of text. No HTML!"
+msgstr ""
+
+#: ../lib/theme-options.php:133
+msgid "No HTML! Line breaks OK!"
+msgstr "HTML tiltva, de sortörések engedélyezve!"
+
+#: ../lib/theme-options.php:134
+msgid "No HTML! Line breaks allowed!"
+msgstr "HTML tiltva, de sortörések engedélyezve!"
+
+#: ../lib/theme-options.php:143
+msgid "Some Inline HTML ONLY!"
+msgstr "Kizárólag néhány inline HTML tag engedélyezett!"
+
+#: ../lib/theme-options.php:144
+msgid ""
+"A textarea for a block of text. Only some inline HTML (&lt;a&gt;, &lt;b&gt;, "
+"&lt;em&gt;, &lt;strong&gt;, &lt;abbr&gt;, &lt;acronym&gt;, &lt;"
+"blockquote&gt;, &lt;cite&gt;, &lt;code&gt;, &lt;del&gt;, &lt;q&gt;, &lt;"
+"strike&gt;) is allowed!"
+msgstr ""
+"Beviteli mező hosszabb szövegekhez. Használható HTML tagek (&lt;a&gt;, &lt;"
+"b&gt;, &lt;em&gt;, &lt;strong&gt;, &lt;abbr&gt;, &lt;acronym&gt;, &lt;"
+"blockquote&gt;, &lt;cite&gt;, &lt;code&gt;, &lt;del&gt;, &lt;q&gt;, &lt;"
+"strike&gt;) is allowed!"
+
+#: ../lib/theme-options.php:154
+msgid "Select (type one)"
+msgstr "Válassz"
+
+#: ../lib/theme-options.php:155
+msgid "A regular select form field"
+msgstr "Normál lenyílómező"
+
+#: ../lib/theme-options.php:164
+msgid "Select (type two)"
+msgstr "Válassz"
+
+#: ../lib/theme-options.php:165
+msgid "A select field with a label for the option and a corresponding value."
+msgstr "A címkére kattintva is kiválaszthatod a megfelelő opciót."
+
+#: ../lib/theme-options.php:168
+msgid "Option 1"
+msgstr "Opció 1"
+
+#: ../lib/theme-options.php:168
+msgid "Option 2"
+msgstr "Opció 2"
+
+#: ../lib/theme-options.php:168
+msgid "Option 3"
+msgstr "Opció 3"
+
+#: ../lib/theme-options.php:168
+msgid "Option 4"
+msgstr "Opció 4"
+
+#: ../lib/theme-options.php:175
+msgid "Checkbox"
+msgstr "Pipálós mező"
+
+#: ../lib/theme-options.php:176 ../lib/theme-options.php:185
+msgid "Some Description"
+msgstr "Leírás"
+
+#: ../lib/theme-options.php:184
+msgid "Multi-Checkbox"
+msgstr "Multi Pipálós mező"
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 1"
+msgstr "Pipálós mező 4"
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 2"
+msgstr "Pipálós mező 3"
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 3"
+msgstr "Pipálós mező 2"
+
+#: ../lib/theme-options.php:188
+msgid "Checkbox 4"
+msgstr "Pipálós mező 1"
+
+#: ../lib/theme-options.php:203
+msgid "PixKit Settings - Contextual Help"
+msgstr "PixKit Beállítások - Helyi súgó"
+
+#: ../lib/theme-options.php:204
+msgid ""
+"Contextual help goes here. You may want to use different html elements to "
+"format your text as you want."
+msgstr "Helyi súgó. Érdemes különböző HTML elemekkel formázni a szöveget."
+
+#: ../lib/theme-settings-basic.php:41
+msgid "Pixkit Settings Page"
+msgstr "PixKit beállítások oldal"
+
+#: ../lib/theme-settings-basic.php:146
+msgid "PixKit Options"
+msgstr "PixKit Beállítások"
+
+#: ../lib/theme-settings-basic.php:352
+msgid "Expecting a Numeric value! Please fix."
+msgstr "Csak számot adhatsz meg. Kérjük javítsd!"
+
+#: ../lib/theme-settings-basic.php:365
+msgid "Expecting comma separated numeric values"
+msgstr "Hibás számformátum."
+
+#: ../lib/theme-settings-basic.php:375
+msgid "Expecting comma separated numeric values! Please fix."
+msgstr "Hibás számformátum. Kérjük javítsd."
+
+#: ../lib/theme-settings-basic.php:400
+msgid "Invalid email! Please re-enter!"
+msgstr "Érvénytelen e-mail cím! Kérjük írd be újra!"
+
+#: ../lib/theme-settings-basic.php:402
+msgid "This setting field cannot be empty! Please enter a valid email address."
+msgstr "A mező nem lehet üres. Kérjük valós e-mail címet adj meg"
+
+#: ../lib/theme-settings-basic.php:410
+msgid "Please enter a valid email address."
+msgstr "Kérjük valós e-mail címet adj meg"
+
+#: ../no-results.php:14
+msgid "Nothing Found"
+msgstr "Nincs találat"
+
+#: ../no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Kész vagy az első írásod publikálására? <a href=\"%1$s\">Itt elkezdheted</a>."
+
+#: ../no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Sajnos nem találtunk semmit a keresési kifejezésre. Kérjük próbáld meg pár "
+"hasonló kulcsszóval."
+
+#: ../no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "Sajnos nem találjuk a keresett tartalmat."
+
+#: ../search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Keresési eredmények: %s"
+
+#: ../searchform.php:10
+msgid "Search"
+msgstr "Keresés"
+
+#: ../sidebar.php:25
+msgid "Meta"
+msgstr ""
