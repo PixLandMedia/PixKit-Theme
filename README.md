@@ -63,6 +63,11 @@ email: [support@pixlandmedia.com]
 ## Changelog
 
 
+**04.12.15 v0.1.2:**
+- UPDATED some localization deficiency
+- ADDED Post thumbnails theme filter
+
+
 **03.14.15 v0.1.1:**
 - ADDED jQuery.mmenu 
 - UPDATED jQuery 2.1.3

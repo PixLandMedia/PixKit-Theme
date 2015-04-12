@@ -23,7 +23,7 @@ function pixkit_posted_on() {
 
     printf( __( '
                     <li>
-                        by 
+                        <i class="fa fa-user"></i>
                         <span class="author vcard">
                             <a class="url fn n" href="%5$s" title="%6$s" rel="author">
                             %7$s
@@ -115,10 +115,6 @@ add_action( 'save_post', 'pixkit_category_transient_flusher' );
 
 
 
-
-
-
-
 if ( ! function_exists( 'pixkit_content_nav' ) ):
 /**
  * Display navigation to next/previous pages when applicable
@@ -157,11 +153,11 @@ function pixkit_content_nav( $nav_id ) {
     <?php elseif ( $wp_query->max_num_pages > 1 && ( is_home() || is_archive() || is_search() ) ) : // navigation links for home, archive, and search pages ?>
  
         <?php if ( get_next_posts_link() ) : ?>
-        <div class="nav-previous pull-left"><?php next_posts_link( __( '<i class="fa fa-chevron-left fa-inverse"></i> Older posts', 'pixkit' ) ); ?></div>
+        <div class="nav-previous pull-left"> <?php next_posts_link( '<i class="fa fa-chevron-left fa-inverse"></i> ' . __( 'Older posts', 'pixkit' ) ); ?></div>
         <?php endif; ?>
  
         <?php if ( get_previous_posts_link() ) : ?>
-        <div class="nav-next pull-right"><?php previous_posts_link( __( 'Newer posts <i class="fa fa-chevron-right fa-inverse"></i>', 'pixkit' ) ); ?></div>
+        <div class="nav-next pull-right"><?php previous_posts_link( __( 'Newer posts', 'pixkit' ) . ' <i class="fa fa-chevron-right fa-inverse"></i>' ); ?> </div>
         <?php endif; ?>
  
     <?php endif; ?>

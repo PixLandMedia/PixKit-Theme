@@ -17,7 +17,7 @@ add_filter( 'widget_text', 'do_shortcode');
  */
 add_filter( 'the_content_more_link', 'pixkit_modify_read_more_link' );
 function pixkit_modify_read_more_link() {
-    return '<a class="more-link btn btn-primary" href="' . get_permalink() . '">Read more...</a>';
+    return '<a class="more-link btn btn-primary" href="' . get_permalink() . '">' . __( 'Read more', 'pixkit' ) . '</a>';
 }
 
 
@@ -62,11 +62,11 @@ function pixkit_comment_form_fields( $fields ) {
     $html5    = current_theme_supports( 'html5', 'comment-form' ) ? 1 : 0;
     
     $fields   =  array(
-        'author' => '<div class="form-group comment-form-author">' . '<label for="author">' . __( 'Name' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+        'author' => '<div class="form-group comment-form-author">' . '<label for="author">' . __( 'Name', 'pixkit' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
                     '<input class="form-control" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30"' . $aria_req . ' /></div>',
-        'email'  => '<div class="form-group comment-form-email"><label for="email">' . __( 'Email' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+        'email'  => '<div class="form-group comment-form-email"><label for="email">' . __( 'Email', 'pixkit' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
                     '<input class="form-control" id="email" name="email" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . ' value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30"' . $aria_req . ' /></div>',
-        'url'    => '<div class="form-group comment-form-url"><label for="url">' . __( 'Website' ) . '</label> ' .
+        'url'    => '<div class="form-group comment-form-url"><label for="url">' . __( 'Website', 'pixkit' ) . '</label> ' .
                     '<input class="form-control" id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '" size="30" /></div>',
     );
     
@@ -82,7 +82,7 @@ function pixkit_comment_form_fields( $fields ) {
 add_filter( 'comment_form_defaults', 'pixkit_comment_form' );
 function pixkit_comment_form( $args ) {
     $args['comment_field'] = '<div class="form-group comment-form-comment">
-            <label for="comment">' . _x( 'Comment', 'noun' ) . '</label> 
+            <label for="comment">' . _x( 'Comment', 'pixkit' ) . '</label> 
             <textarea class="form-control" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
         </div>';
     return $args;
@@ -97,6 +97,17 @@ function pixkit_comment_form( $args ) {
  */
 add_action('comment_form', 'pixkit_comment_button' );
 function pixkit_comment_button() {
-    echo '<button class="btn btn-primary" type="submit">' . __( 'Submit' ) . '</button>';
+    echo '<button class="btn btn-primary" type="submit">' . __( 'Submit', 'pixkit' ) . '</button>';
 }
+
+
+/**
+ * Add post-tumbnail to theme
+ *
+ * @since PixKit 0.1.2
+ */
+if ( function_exists( 'add_theme_support' ) ) {
+    add_theme_support( 'post-thumbnails' );
+}
+
 
